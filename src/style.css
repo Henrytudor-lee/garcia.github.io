@@ -95,9 +95,9 @@ button:focus-visible {
 }
 /* common text style */
 .logo-title {
-  font-size: 30px;
+  font-size: 70px;
   font-weight: 700;
-  animation: colorDynamic 4s infinite;
+  animation: colorDynamic 6s infinite;
 }
 .text-title {
   font-size: 24px;

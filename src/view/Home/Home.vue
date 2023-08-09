@@ -75,10 +75,19 @@ const imgDataList = reactive([
      top: 0;
      bottom: 0;
      margin: auto;
-     width: 300px;
+     width: 500px;
      height: 80px;
      line-height: 80px;
      text-align: center;
+     background-color: #ccc;
+     opacity: .7;
+     border-radius: 20px;
+     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+     &:hover {
+      background-color: #6b6b6b;
+      opacity: 1;
+      cursor: pointer;
+     }
     }
   }
   .bottom {
